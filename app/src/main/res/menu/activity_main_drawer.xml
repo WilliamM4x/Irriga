@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_home"
+            android:title="@string/Inicio" />
+        <item
+            android:id="@+id/nav_couve"
+            android:icon="@drawable/ic_barramenu1"
+            android:title="@string/couve" />
+        <item
+            android:id="@+id/nav_alface"
+            android:icon="@drawable/ic_barramenu1"
+            android:title="@string/alface" />
+        <item
+            android:id="@+id/nav_coentro"
+            android:icon="@drawable/ic_barramenu1"
+            android:title="@string/coentro"
+            />
+        <item
+            android:id="@+id/nav_cebolinha"
+            android:icon="@drawable/ic_barramenu1"
+            android:title="@string/cebolinha"
+            />
+
+        <item
+            android:id="@+id/nav_meteorologia"
+            android:icon="@drawable/ic_meteorologia"
+            android:title="@string/meteorologia"
+            />
+    </group>
+</menu>

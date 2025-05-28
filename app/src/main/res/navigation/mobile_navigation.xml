@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.stackmobile.irriga.ui.inicio.InicioFragment"
+        android:label="@string/inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_couve"
+        android:name="com.stackmobile.irriga.ui.couve.CouveFragment"
+        android:label="Couve"
+        tools:layout="@layout/fragment_couve" />
+
+    <fragment
+        android:id="@+id/nav_alface"
+        android:name="com.stackmobile.irriga.ui.alface.AlfaceFragment"
+        android:label="Alface"
+        tools:layout="@layout/fragment_alface" />
+
+    <fragment
+        android:id="@+id/nav_coentro"
+        android:name="com.stackmobile.irriga.ui.coentro.CoentroFragment"
+        android:label="Coentro"
+        tools:layout="@layout/fragment_coentro"/>
+
+    <fragment
+        android:id="@+id/nav_cebolinha"
+        android:name="com.stackmobile.irriga.ui.cebolinha.CebolinhaFragment"
+        android:label="Cebolinha"
+        tools:layout="@layout/fragment_cebolinha"
+        />
+
+    <fragment
+        android:id="@+id/nav_meteorologia"
+        android:name="com.stackmobile.irriga.ui.meteorologia.MeteorologiaFragment"
+        android:label="Meteorologia"
+        tools:layout="@layout/fragment_meteorologia"
+        />
+</navigation>
